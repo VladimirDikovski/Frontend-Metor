@@ -1,0 +1,7 @@
+/* Below 400px */
+
+@media (max-width: 25em) {
+  .card-contet {
+    max-width: 20rem;
+  }
+}
