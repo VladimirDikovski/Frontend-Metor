@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/general.css" />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Contact form</title>
+  </head>
+  <body>
+    <section class="form-section">
+      <div class="container">
+        <div class="form">
+          <h2 class="form-header">Contact Us</h2>
+          <form class="input-form">
+            <div class="row-1 row">
+              <div class="first-name">
+                <label for="name" class="label label-first-name"
+                  >First Name<span class="required">*</span></label
+                >
+                <input
+                  type="text"
+                  name="name"
+                  id="name"
+                  class="input-first-name input"
+                  required
+                />
+              </div>
+
+              <div class="last-name">
+                <label for="name" class="label label-last-name"
+                  >Last Name<span class="required">*</span></label
+                >
+                <input
+                  type="text"
+                  name=""
+                  id=""
+                  class="input-first-name input"
+                  required
+                />
+              </div>
+            </div>
+            <div class="row-2 row">
+              <div class="meil-addres">
+                <label for="name" class="label label-email"
+                  >Email<span class="required">*</span></label
+                >
+                <input
+                  type="email"
+                  name=""
+                  id=""
+                  class="input-email input"
+                  required
+                />
+              </div>
+            </div>
+            <div class="row-3">
+              <label for="text" class="label"
+                >Query Type <span class="required">*</span></label
+              >
+              <div class="radio-buttons">
+                <div class="btn-radio">
+                  <input type="radio" class="radio-field" value="1" required />
+                  <p class="Description">General Enquiry</p>
+                </div>
+                <div class="btn-radio">
+                  <input type="radio" class="radio-field" value="0" required />
+                  <p class="Description">Support Request</p>
+                </div>
+              </div>
+            </div>
+            <div class="row-4">
+              <label for="text" class="label"
+                >Message <span class="required">*</span></label
+              >
+              <textarea
+                name="Message"
+                id=""
+                class="text-area"
+                rows="6"
+                required
+              ></textarea>
+            </div>
+            <div class="row-5">
+              <div class="terms">
+                <input
+                  type="checkbox"
+                  id="acceptTerms"
+                  required
+                  class="terms-btn"
+                />
+                <p class="p-terms">
+                  I consent to being contacted by the team
+                  <span class="required">*</span>
+                </p>
+              </div>
+            </div>
+
+            <button class="btn">Submit</button>
+          </form>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
