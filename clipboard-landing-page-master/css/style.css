@@ -211,3 +211,46 @@
   text-align: center;
   max-width: 60rem;
 }
+
+/* Footer style */
+.footer-img {
+  height: 4rem;
+}
+
+.wrapper {
+  display: flex;
+  gap: 10rem;
+  justify-content: flex-start;
+  align-items: center;
+}
+.links {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.last {
+  align-self: flex-start;
+}
+
+.link:visited,
+.link:link {
+  text-decoration: none;
+  color: hsl(201, 6%, 45%);
+  font-size: 1.6rem;
+}
+footer {
+  background-color: hsl(202, 46%, 91%);
+  padding: 4.8rem;
+}
+
+.icon-footer {
+  display: flex;
+  justify-content: flex-end;
+  gap: 2rem;
+  align-self: flex-start;
+  margin-left: 15rem;
+}
+.footer-icon {
+  cursor: pointer;
+  height: 2rem;
+}
