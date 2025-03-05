@@ -1,46 +1,226 @@
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Blog-Preview Card</title>
+    <!-- displays site properly based on user's device -->
     <link rel="stylesheet" href="css/general.css" />
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/media.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap"
       rel="stylesheet"
     />
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+    <link rel="icon" type="image/png" href="./images/favicon-32x32.png" />
+    <title>Frontend Mentor | Clipboard landing page</title>
   </head>
   <body>
-    <section class="card">
-      <div class="card-contet conteiner">
-        <img
-          src="assets/images/illustration-article.svg"
-          alt=""
-          class="card-img"
-        />
-        <span class="label">Learning</span>
-        <div class="description-content">
-          <p class="date">Published 21 dec 2023</p>
-          <h2 class="heading">HTML & CSS foundations</h2>
+    <section class="hero-section">
+      <div class="hero container">
+        <img src="images/logo.svg" alt="" class="logo-img" />
+        <h1 class="header-1">A history of everythings you copy</h1>
+        <p class="hero-descripiton">
+          Clipbord allows you to track and organize everything you copy.
+          Instantly access your cliboard on all your devices.
+        </p>
+        <div class="buttons">
+          <a href="#" class="btn btn1">Download for IOS</a>
+          <a href="#" class="btn btn2">Download for Mac</a>
+        </div>
+      </div>
+    </section>
 
-          <p class="description">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio
-            pariatur sapiente amet delectus impedit a.
-          </p>
+    <section class="feature-section">
+      <div class="feature container">
+        <h2 class="feature-header">Keep track of your snippets</h2>
+        <p class="feature-description">
+          Clipboard instanly stores any item you copy in the cloud, meaning you
+          can access your snippets immediatly on all your devices.Our Mac and
+          IOS apps will help you organize everything.
+        </p>
+      </div>
+      <div class="feautre-details grid grid--col--2 container">
+        <div class="img-container">
+          <img
+            src="images/image-computer.png"
+            alt="img-computer"
+            class="img-computer"
+          />
+        </div>
 
-          <div class="avatar">
-            <img
-              src="assets/images/image-avatar.webp"
-              alt=""
-              class="avatar-img"
-            />
-            <p class="name">Greg Hooper</p>
+        <div class="details">
+          <div class="detail">
+            <h3 class="details-header">Quick Search</h3>
+            <p class="details-descriptions">
+              Easily search you snippets by content category, web
+              address,application and more
+            </p>
+          </div>
+          <div class="detail">
+            <h3 class="details-header">Quick Search</h3>
+            <p class="details-descriptions">
+              Easily search you snippets by content category, web
+              address,application and more
+            </p>
+          </div>
+          <div class="detail">
+            <h3 class="details-header">Quick Search</h3>
+            <p class="details-descriptions">
+              Easily search you snippets by content category, web
+              address,application and more
+            </p>
           </div>
         </div>
       </div>
     </section>
+    <section class="community-section">
+      <div class="comunity container">
+        <h2 class="comunity-header">Access Clipbord Anywhere</h2>
+        <p class="comunity-descriptions">
+          Whether you're on the go, or at your computer, you can access all your
+          Clipbord snippets in a few simple clicks.
+        </p>
+
+        <img src="images/image-devices.png" alt="iphone" class="comunity-img" />
+      </div>
+    </section>
+    <section class="testimonial-section">
+      <div class="testimonial container">
+        <div class="testimonial-header">
+          <h2 class="comunity-header">Supercharge your workfloor.</h2>
+          <p class="comunity-descriptions">
+            We`ve got the tools to boost your productivity
+          </p>
+        </div>
+        <div class="testimonial-icons grid grid--col--3">
+          <div class="icon icon1">
+            <img
+              src="images/icon-blacklist.svg"
+              alt="blacklist"
+              class="testimonial-logo"
+            />
+            <h2 class="logo-h2">Create Blacklists</h2>
+            <p class="logo-description">
+              Ensure sensitive information never makes its way to your clipbord
+              by excluding certain source.
+            </p>
+          </div>
+          <div class="icon icon2">
+            <img
+              src="images/icon-text.svg"
+              alt="plain"
+              class="testimonial-logo"
+            />
+            <h2 class="logo-h2">Plain next snippets</h2>
+            <p class="logo-description">
+              Remove unwanted formating from copied text for a consistent look.
+            </p>
+          </div>
+
+          <div class="icon icon3">
+            <img
+              src="images/icon-preview.svg"
+              alt="preview"
+              class="testimonial-logo"
+            />
+            <h2 class="logo-h2">Sneak Preview</h2>
+            <p class="logo-description">
+              Quick preview of all snippets on your clipbord for easy access.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="firm-section">
+      <div class="firms container grid grid--col--5">
+        <div class="firm">
+          <img src="images/logo-google.png" alt="google" class="firm-img" />
+        </div>
+        <div class="firm">
+          <img src="images/logo-ibm.png" alt="ibm" class="firm-img" />
+        </div>
+        <div class="firm">
+          <img
+            src="images/logo-microsoft.png"
+            alt="micorosft"
+            class="firm-img"
+          />
+        </div>
+        <div class="firm">
+          <img src="images/logo-hp.png" alt="hp" class="firm-img" />
+        </div>
+        <div class="firm">
+          <img
+            src="images/logo-vector-graphics.png"
+            alt="vection-graphics"
+            class="firm-img"
+          />
+        </div>
+      </div>
+    </section>
+    <section class="cta-section">
+      <div class="cta container">
+        <h2 class="cta-header">Clipbord for IOS and Mac OS</h2>
+        <p class="cta-descripiton">
+          Avalible for free on the app store. Download for Mac or IOS, sync with
+          Icloud and you`re ready to start adding to your clipbord
+        </p>
+        <div class="buttons">
+          <a href="#" class="btn btn1">Download for IOS</a>
+          <a href="#" class="btn btn2">Download for Mac</a>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="footer container">
+        <div class="wrapper">
+          <img src="images/logo.svg" alt="footer-logo" class="footer-img" />
+          <div class="links">
+            <a href="#" class="link">FAQs</a>
+            <a href="#" class="link">Contact us</a>
+          </div>
+          <div class="links">
+            <a href="#" class="link">Privacy Policy</a>
+            <a href="#" class="link">Press Kit</a>
+          </div>
+          <div class="links last">
+            <a href="#" class="link">Install Guide</a>
+          </div>
+          <div class="icon-footer">
+            <a href="#" class="social-link"
+              ><img
+                src="images/icon-facebook.svg"
+                alt="facebook"
+                class="footer-icon"
+            /></a>
+            <a href="" class="social-link"
+              ><img
+                src="images/icon-instagram.svg"
+                alt="insagram"
+                class="footer-icon"
+              />
+            </a>
+            <a href="" class="social-link"
+              ><img
+                src="images/icon-twitter.svg"
+                alt="twitter"
+                class="footer-icon"
+            /></a>
+          </div>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
