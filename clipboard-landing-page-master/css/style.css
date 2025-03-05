@@ -1,3 +1,4 @@
+
 /* - Font sizes (px)
 10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98 */
 
@@ -7,129 +8,256 @@
 
 /* Style Hero section */
 
-/* below 1104px */
-
-@media (max-width: 69em) {
-  .link:visited,
-  .link:link {
-    font-size: 1.4rem;
-  }
-
-  .wrapper {
-    gap: 4rem;
-  }
-}
-/* below 912px */
-@media (max-width: 57em) {
-  html {
-    font-size: 56.25%;
-  }
-  .wrapper {
-    gap: 2rem;
-  }
+.hero-section {
+  background-image: url("../images/bg-header-desktop.png");
+  margin-bottom: 6.4rem;
 }
 
-/* below 672px */
-@media (max-width: 42em) {
-  html {
-    font-size: 50%;
-  }
-  .testimonial {
-    padding: 0 2rem;
-  }
-  .testimonial-icons.grid {
-    gap: 2.4rem;
-  }
-  .firms {
-    padding: 0 2rem;
-  }
-  footer {
-    padding: 1.6rem;
-  }
-}
-/* below 528px */
-@media (max-width: 33em) {
-  .hero {
-    padding: 2.4rem;
-  }
-  .header-1 {
-    font-size: 2.4rem;
-  }
-  .buttons {
-    flex-direction: column;
-  }
-  .btn {
-    width: 30rem;
-    text-align: center;
-  }
-  .feature {
-    margin-bottom: 3.2rem;
-  }
-  .grid--col--2 {
-    grid-template-columns: 1fr;
-    align-items: center;
-    justify-content: center;
-  }
-  .details {
-    padding: 2.4rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 2rem;
-  }
-  .details-header {
-    font-size: 2.4rem;
-  }
-  .details-descriptions {
-    font-size: 1.8rem;
-  }
-  .grid--col--3,
-  .grid--col--5 {
-    grid-template-columns: 1fr;
-  }
-  .logo-h2,
-  .comunity-header {
-    font-size: 2.4rem;
-  }
-  .logo-description,
-  .comunity-descriptions {
-    font-size: 1.8rem;
-  }
-  .firm-section {
-    margin-bottom: 10rem;
-  }
-  .firm-img {
-    height: 4rem;
-  }
-  .firms {
-    gap: 3rem;
-  }
-  .cta-section {
-    padding: 2rem;
-  }
-  .wrapper {
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-  }
-  .last,
-  .icon-footer {
-    align-self: auto;
-  }
-  .icon-footer {
-    margin-left: 0;
-  }
-  .link:link,
-  .link:visited {
-    font-size: 1.8rem;
-  }
-  .footer-img {
-    height: 5rem;
-  }
-  .footer-icon {
-    height: 4rem;
-  }
+.hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 8rem;
+  gap: 2rem;
+  max-width: 60rem;
+  padding: 4.8rem;
 }
 
+.logo-img {
+  height: 8rem;
+}
+.header-1 {
+  font-weight: 600;
+  font-size: 3rem;
+}
+.hero-descripiton {
+  text-align: center;
+  color: hsl(201, 11%, 66%);
+  font-weight: 400;
+}
+.buttons {
+}
+.btn:link,
+.btn:visited {
+  display: inline-block;
+  text-decoration: none;
+  padding: 8px 16px;
+  box-shadow: 2px 2px rgba(0, 0, 0, 0.777);
+  cursor: pointer;
+}
+.buttons {
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+  align-items: center;
+}
+.btn1:link,
+.btn1:visited {
+  background-color: hsl(171, 66%, 44%);
+  border: none;
+  border-radius: 11px;
+  color: #fff;
+}
+
+.btn2:link,
+.btn2:visited {
+  background-color: hsl(233, 100%, 69%);
+  border: none;
+  border-radius: 11px;
+  color: #fff;
+}
+
+/* Style Feature Section */
+
+.feature-section {
+  margin-bottom: 6.4rem;
+}
+.feature {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  margin-bottom: 6.4rem;
+}
+.feature-header {
+  font-size: 2.4rem;
+}
+.feature-description {
+  text-align: center;
+  max-width: 60rem;
+  line-height: 1.6;
+  color: hsl(201, 11%, 66%);
+}
+.img-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.img-computer {
+  max-width: 80%;
+}
+.details {
+  padding: 4.8rem;
+}
+
+.details-header {
+  font-size: 1.6rem;
+  margin-bottom: 0.5rem;
+}
+.details-descriptions {
+  margin-bottom: 1rem;
+  font-size: 1.4rem;
+  color: hsl(201, 11%, 66%);
+}
+.detail {
+  max-width: 30rem;
+}
+
+/* comunity style */
+
+.community-section {
+  margin-bottom: 6.4rem;
+}
+.comunity {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+.comunity-header {
+  font-size: 2.4rem;
+}
+.comunity-descriptions {
+  text-align: center;
+  max-width: 60rem;
+  line-height: 1.6;
+  color: hsl(201, 11%, 66%);
+  margin-bottom: 2.4rem;
+}
+.comunity-img {
+  max-width: 60%;
+}
+
+/* testimonial style */
+.testimonial-section {
+  margin-bottom: 12.8rem;
+}
+.testimonial-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  margin-bottom: 4.8rem;
+}
+
+.testimonial-logo {
+  height: 3rem;
+  width: 4.5rem;
+}
+.logo-h2 {
+  font-size: 2rem;
+}
+.logo-description {
+  font-size: 1.4rem;
+  color: #777;
+  line-height: 1.6;
+  text-align: center;
+}
+.icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+/* firm style */
+.firm-section {
+  margin-bottom: 20rem;
+}
+.firm-img {
+  height: 3rem;
+}
+.firm {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.firms {
+  gap: 2rem;
+}
+
+/* cta section */
+.cta-section {
+  margin-bottom: 12.8rem;
+}
+.cta {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+.cta-header {
+  font-size: 2.4rem;
+}
+.cta-descripiton {
+  font-size: 1.8rem;
+  color: hsl(201, 11%, 66%);
+  text-align: center;
+  max-width: 60rem;
+}
+/* Footer style */
+.footer-img {
+  height: 4rem;
+}
+
+.wrapper {
+  display: flex;
+  gap: 10rem;
+  justify-content: flex-start;
+  align-items: center;
+}
+.links {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.last {
+  align-self: flex-start;
+}
+
+.link:visited,
+.link:link {
+  text-decoration: none;
+  color: hsl(201, 6%, 45%);
+  font-size: 1.6rem;
+}
+footer {
+  background-color: hsl(202, 46%, 91%);
+  padding: 4.8rem;
+}
+
+.icon-footer {
+  display: flex;
+  justify-content: flex-end;
+  gap: 2rem;
+  align-self: flex-start;
+  margin-left: 15rem;
+}
+.footer-icon {
+  cursor: pointer;
+  height: 2rem;
+}
+
+.link:hover {
+  color: hsl(171, 66%, 44%);
+}
+.footer-icon:hover {
+  color: hsl(171, 66%, 44%);
+}
