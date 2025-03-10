@@ -1,0 +1,43 @@
+/* below 640px */
+
+@media (max-width: 40em) {
+  html {
+    font-size: 56.25%;
+  }
+  .calculator {
+    max-width: 50rem;
+    padding: 2.4rem;
+  }
+  .input-form {
+    width: 13rem;
+  }
+  .error-messenger {
+    font-size: 1rem;
+  }
+  .hr {
+    width: 30rem;
+  }
+}
+
+/* below 480px */
+@media (max-width: 30rem) {
+  .calculator {
+    max-width: 40rem;
+    padding: 1;
+  }
+  .description {
+    font-size: 5rem;
+  }
+  .input-form {
+    width: 11rem;
+  }
+  .fields {
+    gap: 0.2;
+  }
+  .hr {
+    width: 25rem;
+  }
+  .error-messenger {
+    font-size: 0.8rem;
+  }
+}
