@@ -1,0 +1,127 @@
+/* style nav */
+.nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem 4.8rem 2rem 4.8rem;
+  align-items: center;
+}
+.nav-el-1 {
+  position: relative;
+}
+.header {
+  padding: 4.8rem;
+  height: 100vh;
+}
+.icon-menu {
+  width: 1.3rem;
+  margin-left: 1rem;
+}
+.nav-link:link,
+.nav-link:visited {
+  font-size: 2rem;
+  display: inline-block;
+  text-decoration: none;
+  color: hsl(0, 0%, 41%);
+}
+
+.nav-el-1,
+.nav-el-2 {
+  display: flex;
+  align-items: center;
+  gap: 6.6rem;
+}
+.Register-link {
+  border: 1px solid hsl(0, 0%, 31%);
+  border-radius: 1.5rem;
+  padding: 1rem 2rem;
+}
+/* style hero */
+.hero-part {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 20rem;
+}
+.hero-section {
+  margin-top: 4.8rem;
+}
+.img-hero {
+  width: 90%;
+}
+.left-part {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 4.4rem;
+}
+.main-header {
+  font-size: 9rem;
+  line-height: 0.8;
+}
+.description {
+  font-size: 2.2rem;
+  color: hsl(0, 0%, 41%);
+  line-height: 1.6;
+}
+.left-button:visited,
+.left-button:link {
+  display: inline-block;
+  text-decoration: none;
+  padding: 2rem 4rem;
+  background-color: #000;
+  border-radius: 15px;
+  border: none;
+  color: #fff;
+  font-size: 2rem;
+}
+.clients {
+  display: flex;
+  gap: 4rem;
+  margin-top: 6.8rem;
+}
+.client-img {
+  height: 3rem;
+}
+.nav-link:hover {
+  color: #000;
+}
+.left-button:hover {
+  background-color: #fff;
+  color: #000;
+  border-radius: 15px;
+  border: 1px solid black;
+}
+/* style drop-down-menu */
+
+.todo-list,
+.todo-list-2 {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  justify-content: center;
+  gap: 1.5rem;
+  background-color: hsl(0, 0%, 100%);
+  padding: 1rem;
+  position: absolute;
+  border-radius: 9px;
+  box-shadow: 4.4px 4.8px rgba(0, 0, 0, 0.068);
+  display: none;
+}
+.todo-list {
+  top: 2rem;
+}
+.todo-list-2 {
+  top: 2rem;
+}
+
+.todo-element {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  cursor: pointer;
+  font-size: 1.6rem;
+}
+/* style drop-down */
+.drop-down-icon {
+  display: none;
+}

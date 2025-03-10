@@ -1,0 +1,152 @@
+/* below 1400px */
+
+@media (max-width: 88em) {
+  .hero-part {
+    column-gap: 10rem !important;
+  }
+  .main-header {
+    font-size: 7rem !important;
+  }
+  .description {
+    font-size: 1.8rem !important;
+  }
+  .todo-list,
+  .todo-list-2 {
+    padding: 1rem !important;
+  }
+}
+/* below 1200px */
+@media (max-width: 75em) {
+  html {
+    font-size: 56.25%;
+  }
+  .nav-el-1,
+  .nav-el-2 {
+    gap: 3.3rem !important;
+  }
+  .hero-part {
+    column-gap: 5rem !important;
+  }
+  .main-header {
+    font-size: 5rem !important;
+  }
+  .clients {
+    gap: 1rem !important;
+  }
+  .client-img {
+    height: 2.5rem !important;
+  }
+  .todo-list,
+  .todo-list-2 {
+    padding: 1rem !important;
+  }
+}
+
+/* below 1000px */
+
+@media (max-width: 62.5em) {
+  html {
+    font-size: 50%;
+  }
+  .header {
+    padding: 2.4rem !important;
+  }
+  .nav {
+    padding: 2rem !important;
+  }
+  .todo-list,
+  .todo-list-2 {
+    padding: 1rem !important;
+  }
+}
+
+.nav-el-1,
+.nav-el-2 {
+  gap: 2rem !important;
+}
+.nav-link {
+  font-size: 1.4rem;
+}
+.hero-part {
+  column-gap: 5rem !important;
+}
+.main-header {
+  font-size: 5rem !important;
+}
+.clients {
+  gap: 1rem !important;
+}
+.client-img {
+  height: 2.5rem !important;
+}
+
+/* below 700px */
+
+@media (max-width: 44em) {
+  .nav-el-1,
+  .nav-el-2 {
+    display: none !important;
+  }
+  .hero-part {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    justify-content: center !important;
+    gap: 4.4rem;
+  }
+  .right-part {
+    order: 1;
+  }
+  .left-part {
+    order: 2;
+  }
+  .img-hero {
+    width: 100% !important;
+  }
+  .left-part {
+    align-items: center !important;
+    gap: 2rem !important;
+  }
+  .clients {
+    margin-top: 3rem !important;
+  }
+  .description {
+    text-align: center;
+  }
+  .header {
+    padding: 4.4rem !important;
+    position: relative !important;
+  }
+  .drop-down-icon {
+    display: block !important;
+    position: absolute !important;
+    top: 6.4rem;
+    right: 4rem;
+    cursor: pointer;
+  }
+  .drop-down .nav-el-1,
+  .drop-down .nav-el-2,
+  .drop-down nav {
+    display: flex !important;
+    flex-direction: column !important;
+    gap: 2rem;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  .drop-down .nav-logo {
+    display: none;
+  }
+  .drop-down nav {
+    position: absolute;
+    top: 7.2rem;
+    right: 0;
+    background-color: #fff;
+    height: 100vh;
+    width: 50%;
+  }
+
+  .drop-down .todo-list,
+  .drop-down .todo-list-2 {
+    position: relative !important;
+  }
+}
