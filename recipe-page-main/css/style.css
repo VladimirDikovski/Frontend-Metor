@@ -1,57 +1,83 @@
-.content {
-  max-width: 80rem;
-  border: 1px solid black;
-  padding: 2rem;
-  border-radius: 11px;
-}
-.header-img {
-  width: 100%;
-  border-radius: 11px;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
-.h1-header {
-  font-size: 3.4rem;
-  font-weight: 500;
-  margin-top: 2rem;
-}
-.p-header {
-  margin-top: 2rem;
-}
-.body-time {
-  margin-top: 2rem;
-  background-color: hsl(330, 100%, 98%);
-  padding: 4rem;
-  border-radius: 11px;
+html {
+    -moz-text-size-adjust: none;
+    -webkit-text-size-adjust: none;
+    text-size-adjust: none;
 }
 
-.time-heading {
-  font-size: 2rem;
-  color: hsl(332, 51%, 32%);
-  margin-bottom: 1rem;
-}
-.ul-time,
-.ul-ingredients,
-.insruction-ol {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  gap: 1rem;
-}
-.li-time,
-.li-ingredients,
-.instruction-li {
-  font-size: 1.4rem;
-}
-.body-ingredients,
-.body-instruction {
-  padding: 1rem;
+body {
+    margin-block-end: 0;
+    max-height: 100vh;
+    line-height: 1.5;
 }
 
-.header-h2 {
-  font-size: 3rem;
-  color: hsl(14, 45%, 36%);
-  margin-bottom: 1rem;
+ul {
+    list-style: none;
 }
-.hr {
-  margin: 2rem 0;
+
+/* CSS Changes from Root */
+:root {
+    /* Colors */
+    --clr-text: #1e1e1e;
+    --clr-text-hover: #1414148c;
+
+    /* Font */
+    --FF: "Open Sans", sans-serif;
+
+    --FS-16: 1rem;     /* 16px */
+    --FS-40: 2.5rem;   /* 40px */
+}
+
+/* Typography */
+body {
+    font-family: var(--FF);
+    font-size: var(--FS-16);
+    color: var(--clr-text);
+}
+
+a {
+    color: var(--clr-text);
+    text-decoration: none;
+    cursor: pointer;
+}
+
+a:hover,
+a:focus {
+    color: var(--clr-text-hover);
+    text-decoration: underline;
+}
+
+.social-media {
+    font-size: var(--FS-40);
+    margin: 0.55em 0;
+}
+
+.back-link {
+    font-size: var(--FS-16);
+}
+
+/* Layout */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-media {
+    text-align: center;
+}
+
+.project-group,
+.project-section {
+    margin-left: 0.85em;
+}
+
+.project-group ul {
+    margin-left: 1.5em;
 }
