@@ -4,6 +4,7 @@
 }
 .main-header {
   padding: 0 4.8rem;
+  height: 100vh;
 }
 .profile {
   display: flex;
