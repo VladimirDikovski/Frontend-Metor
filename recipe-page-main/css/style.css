@@ -1,0 +1,57 @@
+.content {
+  max-width: 80rem;
+  border: 1px solid black;
+  padding: 2rem;
+  border-radius: 11px;
+}
+.header-img {
+  width: 100%;
+  border-radius: 11px;
+}
+
+.h1-header {
+  font-size: 3.4rem;
+  font-weight: 500;
+  margin-top: 2rem;
+}
+.p-header {
+  margin-top: 2rem;
+}
+.body-time {
+  margin-top: 2rem;
+  background-color: hsl(330, 100%, 98%);
+  padding: 4rem;
+  border-radius: 11px;
+}
+
+.time-heading {
+  font-size: 2rem;
+  color: hsl(332, 51%, 32%);
+  margin-bottom: 1rem;
+}
+.ul-time,
+.ul-ingredients,
+.insruction-ol {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1rem;
+}
+.li-time,
+.li-ingredients,
+.instruction-li {
+  font-size: 1.4rem;
+}
+.body-ingredients,
+.body-instruction {
+  padding: 1rem;
+}
+
+.header-h2 {
+  font-size: 3rem;
+  color: hsl(14, 45%, 36%);
+  margin-bottom: 1rem;
+}
+.hr {
+  margin: 2rem 0;
+}
