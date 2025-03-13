@@ -95,7 +95,7 @@
 
 .del:hover,
 .reset:hover {
-  background-color: hsl(185, 44%, 64%);
+    background-color: hsl(225, 100%, 88%);
 }
 .equal:hover {
   background-color: hsl(6, 83%, 67%);
