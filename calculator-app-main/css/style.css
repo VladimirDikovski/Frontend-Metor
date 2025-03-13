@@ -1,0 +1,194 @@
+/* style calculator header */
+.calculator-body {
+  max-width: 45rem;
+}
+
+.calculator-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem;
+  position: relative;
+}
+.theme {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+.numbers {
+  position: absolute;
+  display: flex;
+  gap: 1.5rem;
+  top: 0;
+  right: 2.2rem;
+  font-size: 1.8rem;
+  color: #fff;
+}
+
+.name {
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: #fff;
+}
+.logo {
+  font-size: 2.2rem;
+  font-weight: 600;
+  color: #fff;
+}
+.result {
+  margin-bottom: 2rem;
+}
+.result-output {
+  width: 100%;
+  border: 1px solid black;
+  height: 8rem;
+  border-radius: 1.1rem;
+  padding: 3rem;
+  font-size: 3rem;
+  text-align: right;
+  background-color: hsl(224, 36%, 15%);
+  color: #fff;
+  font-weight: 600;
+}
+
+.key-pad {
+  background-color: hsl(223, 31%, 20%);
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat((4, 1fr));
+  gap: 2rem;
+  padding: 2rem;
+  border-radius: 1.1rem;
+}
+.btn-key {
+  height: 5rem;
+  border-radius: 1.1rem;
+  border: none;
+  font-size: 2.8rem;
+  cursor: pointer;
+  background-color: hsl(45, 7%, 89%);
+  box-shadow: 2px 4px hsl(35, 11%, 61%);
+  padding: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.reset,
+.equal {
+  grid-column: span 2;
+}
+.del,
+.reset {
+  background-color: hsl(185, 42%, 37%);
+  box-shadow: 2px 4px hsl(224, 28%, 35%);
+  color: #fff;
+}
+.equal {
+  color: #fff;
+  background-color: hsl(6, 63%, 50%);
+  box-shadow: 2px 4px hsl(6, 70%, 34%);
+}
+.btn-key:hover {
+  background-color: #fff;
+}
+
+.del:hover,
+.reset:hover {
+  background-color: hsl(185, 44%, 64%);
+}
+.equal:hover {
+  background-color: hsl(6, 83%, 67%);
+}
+
+/* theme 2 */
+
+body.theme-2 {
+  background-color: hsl(0, 0%, 90%);
+}
+.theme-2 .name,
+.theme-2 .logo,
+.theme-2 .numbers {
+  color: #000;
+}
+
+.theme-2 .result-output {
+  background-color: hsl(0, 0%, 93%);
+  color: #000;
+}
+
+.theme-2 .key-pad {
+  background-color: hsl(0, 5%, 81%);
+}
+.theme-2 .btn-key {
+  background-color: hsl(45, 7%, 89%);
+  box-shadow: 2px 4px hsl(35, 11%, 61%);
+}
+.theme-2 .del,
+.theme-2 .reset {
+  background-color: hsl(185, 42%, 37%);
+  box-shadow: 2px 4px hsl(185, 58%, 25%);
+}
+
+.theme-2 .equal {
+  background-color: hsl(25, 98%, 40%);
+  box-shadow: 2px 4px hsl(25, 99%, 27%);
+}
+
+.theme-2 .btn-key:hover {
+  background-color: #fff;
+}
+
+.theme-2 .del:hover,
+.theme-2 .reset:hover {
+  background-color: hsl(185, 44%, 64%);
+}
+.theme-2 .equal:hover {
+  background-color: hsl(6, 83%, 67%);
+}
+
+/* theme 2 */
+
+body.theme-3 {
+  background-color: hsl(268, 75%, 9%);
+}
+.theme-3 .name,
+.theme-3 .logo,
+.theme-3 .numbers {
+  color: hsl(52, 100%, 62%);
+}
+
+.theme-3 .result-output {
+  background-color: hsl(268, 71%, 12%);
+  color: hsl(52, 100%, 62%);
+}
+
+.theme-3 .key-pad {
+  background-color: hsl(268, 71%, 12%);
+}
+.theme-3 .btn-key {
+  background-color: hsl(268, 47%, 21%);
+  box-shadow: 2px 4px hsl(285, 91%, 52%);
+}
+.theme-3 .del,
+.theme-3 .reset {
+  background-color: hsl(281, 89%, 26%);
+  box-shadow: 2px 4px hsl(285, 91%, 52%);
+}
+
+.theme-3 .equal {
+  background-color: hsl(176, 100%, 44%);
+  box-shadow: 2px 4px hsl(177, 92%, 70%);
+}
+
+.theme-3 .btn-key:hover {
+  background-color: hsl(268, 51%, 47%);
+}
+
+.theme-3 .del:hover,
+.theme-3 .reset:hover {
+  background-color: hsl(281, 86%, 48%);
+}
+.theme-3 .equal:hover {
+  background-color: hsl(176, 100%, 66%);
+}

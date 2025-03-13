@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/general.css" />
+    <link rel="stylesheet" href="css/media.css" />
+    <link rel="stylesheet" href="css/style.css" />
+
+    <title>Frontend Mentor | Calculator app</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  </head>
+  <body>
+    <section class="calculator">
+      <div class="calculator-body container">
+        <div class="calculator-header">
+          <p class="logo">calc</p>
+          <div class="theme">
+            <p class="name">THEME</p>
+            <input
+              type="radio"
+              name="btn"
+              id="theme-btn-1"
+              class="btn"
+              value="1"
+              checked
+            />
+            <input
+              type="radio"
+              name="btn"
+              id="theme-btn-2"
+              class="btn"
+              value="2"
+            />
+            <input
+              type="radio"
+              name="btn"
+              id="theme-btn-3"
+              class="btn"
+              value="3"
+            />
+          </div>
+          <div class="numbers">
+            <p class="num">1</p>
+            <p class="num">2</p>
+            <p class="num">3</p>
+          </div>
+        </div>
+        <div class="result">
+          <input class="result-output" type="text" id="display" />
+        </div>
+
+        <div class="key-pad">
+          <button
+            type="submit"
+            class="btn-key"
+            value="7"
+            onclick="display.value+='7'"
+          >
+            7
+          </button>
+          <button
+            type="submit"
+            class="btn-key"
+            value="8"
+            onclick="display.value+='8'"
+          >
+            8
+          </button>
+          <button
+            type="submit"
+            class="btn-key"
+            value="9"
+            onclick="display.value+='9'"
+          >
+            9
+          </button>
+          <button
+            type="submit"
+            class="btn-key del"
+            value="DE"
+            onclick="display.value=display.value.toString().slice(0,-1)"
+          >
+            DEL
+          </button>
+          <button
+            type="submit"
+            class="btn-key"
+            value="4"
+            onclick="display.value+='4'"
+          >
+            4
+          </button>
+          <button
+            type="submit"
+            class="btn-key"
+            value="5"
+            onclick="display.value+='5'"
+          >
+            5
+          </button>
+          <button
+            type="submit"
+            class="btn-key"
+            value="6"
+            onclick="display.value+='6'"
+          >
+            6
+          </button>
+          <button
+            type="submit"
+            class="btn-key"
+            value="+"
+            onclick="display.value+='+'"
+          >
+            +
+          </button>
+          <button
+            type="submit"
+            class="btn-key"
+            value="1"
+            onclick="display.value+='1'"
+          >
+            1
+          </button>
+          <button
+            type="submit"
+            class="btn-key"
+            value="2"
+            onclick="display.value+='2'"
+          >
+            2
+          </button>
+          <button
+            type="submit"
+            class="btn-key"
+            value="3"
+            onclick="display.value+='3'"
+          >
+            3
+          </button>
+          <button type="submit" class="btn-key" onclick="display.value+='-'">
+            -
+          </button>
+          <button type="submit" class="btn-key" onclick="display.value+='.'">
+            .
+          </button>
+          <button
+            type="submit"
+            class="btn-key"
+            value="0"
+            onclick="display.value+='0'"
+          >
+            0
+          </button>
+          <button
+            type="submit"
+            class="btn-key"
+            value="/"
+            onclick="display.value+='/'"
+          >
+            /
+          </button>
+          <button
+            type="submit"
+            class="btn-key"
+            value="*"
+            onclick="display.value+='*'"
+          >
+            X
+          </button>
+          <button
+            type="submit"
+            class="btn-key reset"
+            value="AC"
+            onclick="display.value=' ' "
+          >
+            RESET
+          </button>
+          <button
+            type="submit"
+            class="btn-key equal"
+            onclick="display.value=eval(display.value)"
+          >
+            =
+          </button>
+        </div>
+      </div>
+    </section>
+    <script src="index.js"></script>
+  </body>
+</html>
