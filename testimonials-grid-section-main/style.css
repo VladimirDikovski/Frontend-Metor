@@ -1,0 +1,91 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-style: 62.5%;
+  overflow-x: hidden;
+}
+
+body {
+  font-family: "Barlow Semi Condensed", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+  overflow-x: hidden;
+}
+
+.container {
+  max-width: 120rem;
+  margin: 10rem auto;
+}
+
+.grid-box {
+  display: grid;
+  grid-template-columns: repeat(4, 23rem);
+  grid-template-rows: 1fr 1fr;
+  justify-content: center;
+  gap: 2rem;
+}
+.profile {
+  display: flex;
+  gap: 1rem;
+}
+.img-logo {
+  border-radius: 50%;
+  margin-bottom: 2rem;
+  border: 1px solid #fff;
+}
+.box {
+  padding: 1.5rem;
+  border-radius: 9px;
+  box-shadow: 10px 4px rgba(0, 0, 0, 0.048);
+}
+.box-1 {
+  background-color: hsl(263, 55%, 52%);
+  grid-column: span 2;
+}
+.description-header {
+  color: #fff;
+  margin-bottom: 2rem;
+  font-weight: 500;
+  font-size: 1.6rem;
+}
+.description-p {
+  font-size: 1.2rem;
+  line-height: 1.2;
+  color: #fff;
+}
+.name {
+  font-size: 1.4rem;
+  color: #fff;
+  font-weight: 500;
+}
+.status {
+  color: #fff;
+  font-size: 1.4;
+}
+.box-2 {
+  background-color: hsl(217, 19%, 35%);
+}
+.box-3 .description-header,
+.box-3 .description-p,
+.box-3 .name,
+.box-3 .status {
+  color: #000;
+}
+.box-4 .description-header,
+.box-4 .description-p,
+.box-4 .name,
+.box-4 .status {
+  color: #000;
+}
+
+.box-3 {
+  grid-row: span 2;
+}
+.box-5 {
+  grid-column: span 2;
+  background-color: hsl(0, 0%, 7%);
+}
